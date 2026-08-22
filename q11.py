@@ -6,4 +6,4 @@ url = "https://raw.githubusercontent.com/DATAUNIRIO/Base_de_dados/master/Estados
 df_dadosbrasil = pd.read_csv(url,sep=";",decimal=",")
 
 sul = (df_dadosbrasil["Regiao_Geografica"] == 'Sul')
-df_dadosbrasil[sul]
+df_dadosbrasil[sul] 

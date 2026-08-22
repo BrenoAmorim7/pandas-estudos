@@ -8,4 +8,4 @@ url = "https://raw.githubusercontent.com/DATAUNIRIO/Base_de_dados/master/Estados
 df_dadosbrasil = pd.read_csv(url,sep=";",decimal=",")
 
 sns.scatterplot(df_dadosbrasil,x = 'IDH',y = 'Mortalidade_infantil',hue = 'Regiao_Geografica')
-plt.show()
+plt.show() 

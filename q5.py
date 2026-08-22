@@ -8,4 +8,4 @@ url = "https://raw.githubusercontent.com/DATAUNIRIO/Base_de_dados/master/Estados
 df_dadosbrasil = pd.read_csv(url,sep=";",decimal=",")
 
 sns.histplot(data=df_dadosbrasil, x = 'Perc_pobres',hue  = 'Regiao_Geografica',multiple = 'dodge')
-plt.show()
+plt.show() 

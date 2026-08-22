@@ -9,4 +9,4 @@ df_dadosbrasil = pd.read_csv(url,sep=";",decimal=",")
 
 
 sns.countplot(data = df_dadosbrasil,x = 'Regiao_Geografica')
-plt.show()
+plt.show()  
